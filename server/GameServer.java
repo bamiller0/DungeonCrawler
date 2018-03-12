@@ -42,8 +42,11 @@ public class GameServer {
                 
                 switch (i) {
                     case 1:
-                        dun.moveLeft(dun.findPlayer());
-                        break;
+						if(dun.findPlayer()!=0){
+							dun.moveLeft(dun.findPlayer());
+							break;
+						}
+						break;
                     case 2:
                         dun.moveRight(dun.findPlayer());
                         break;
