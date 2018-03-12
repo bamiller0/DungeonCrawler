@@ -58,6 +58,8 @@ public class GameClient{
                 
                 System.out.println(output);
                 System.out.println();
+				System.out.println();
+				System.out.println();
             }
         } catch (SocketException ex) {
         } catch (UnknownHostException ex) {
